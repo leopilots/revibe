@@ -176,13 +176,15 @@ body {
 /* footer */
 footer {
     width: 100%;
-    background-color: #162a39;
-    color: #fff;
-    padding: 20px 50px;
+    background-color: #f0f0f0;
+    color: #162a39;
+    padding: 40px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .social-media {
@@ -191,7 +193,7 @@ footer {
 }
 
 .social-media a i {
-    color: #fff;
+    color: #162a39;
     font-size: 2rem;
     transition: 0.5s;
 }
