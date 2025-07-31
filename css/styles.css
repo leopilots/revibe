@@ -84,11 +84,14 @@ body {
 .hero h1 {
     font-size: 2rem;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 5px rgba(220, 220, 220, 0.3);
+    color: #222;
 }
 
 .hero p {
     font-size: 1.2rem;
+    text-shadow: 2px 2px 5px rgba(220, 220, 220, 1);
+    color: #222;
 }
 
 /* featured */
