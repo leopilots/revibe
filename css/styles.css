@@ -10,7 +10,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #f0f0f0;
     font-size: 1rem;
-    color: #333;
+    color: #212121;
 }
 
 .show { display: block !important; }
@@ -37,14 +37,14 @@ body {
 
 .menu-btn {
     font-size: 2rem;
-    color: #162a39;
+    color: #212121;
     cursor: pointer;
     display: block;
     transition: 0.5s all;
     margin-top: 15px;
 }
 
-.menu-btn:hover { color: #9a2d23 }
+.menu-btn:hover { color: #c80619 }
 
 /* navegation */
 .nav-main {
@@ -63,18 +63,18 @@ body {
 .nav-menu li a {
     text-decoration: none;
     margin: 0 15px;
-    color: #162a39;
+    color: #212121;
     font-weight: 500;
     text-transform: uppercase;
     transition: 0.5s;
 } 
 
-.nav-menu li a:hover { color: #9a2d23; }
+.nav-menu li a:hover { color: #c80619; }
 
 /* hero */
 .hero {
     background: url('../img/hero-bg.png') no-repeat center center/cover;
-    color: #f0f0f0;
+    color: #000;
     text-align: center;
     padding: 150px 20px;
     overflow: hidden;
@@ -84,14 +84,14 @@ body {
 .hero h1 {
     font-size: 2rem;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 5px rgba(220, 220, 220, 0.3);
-    color: #222;
+    text-shadow: 2px 2px 5px rgba(220, 220, 220, 1);
+    color: #000;
 }
 
 .hero p {
     font-size: 1.2rem;
     text-shadow: 2px 2px 5px rgba(220, 220, 220, 1);
-    color: #222;
+    color: #000;
 }
 
 /* featured */
@@ -101,7 +101,7 @@ body {
 }
 
 .productos-destacados h2 {
-    color: #162a39;
+    color: #212121;
     font-size: 1.8rem;
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -164,7 +164,7 @@ body {
 }
 
 .info-producto a {
-    background-color: #162a39;
+    background-color: #212121;
     color: #fff;
     border: none;
     padding: 8px 18px;
@@ -175,13 +175,13 @@ body {
     width: 100%;
 }
 
-.info-producto a:hover { background-color: #9a2d23; }
+.info-producto a:hover { background-color: #c80619; }
 
 /* footer */
 footer {
     width: 100%;
     background-color: #f0f0f0;
-    color: #162a39;
+    color: #212121;
     padding: 40px 50px;
     display: flex;
     justify-content: space-between;
@@ -198,12 +198,12 @@ footer {
 }
 
 .social-media a i {
-    color: #162a39;
+    color: #212121;
     font-size: 2rem;
     transition: 0.5s;
 }
 
-.social-media a i:hover { color: #9a2d23; }
+.social-media a i:hover { color: #c80619; }
 
 /* mobile */
 @media (max-width: 800px) {

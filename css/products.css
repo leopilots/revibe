@@ -22,8 +22,8 @@
 
 .barra-busqueda button {
     padding: 0.5rem 1rem;
-    background: #162a39;
-    color: white;
+    background: #212121;
+    color: #fff;
     border: none;
     cursor: pointer;
     width: 19%;
@@ -32,7 +32,7 @@
 }
 
 .barra-busqueda button:hover {
-    background: #9a2d23;
+    background: #c80619;
 }
 
 .filtro-prendas select {
@@ -124,7 +124,7 @@
 }
 
 .info-product a {
-    background-color: #162a39;
+    background-color: #212121;
     text-align: center;
     display: block;
     padding: 10px 0;
@@ -134,7 +134,7 @@
     transition: 0.5s all;
 }
 
-.info-product a:hover { background-color: #9a2d23; }
+.info-product a:hover { background-color: #c80619; }
 
 /* Overlay (visor de imagen) */
 .overlay {
