@@ -7,11 +7,13 @@ zoomableImages.forEach(img => {
   img.addEventListener('click', () => {
     overlayImg.src = img.src;
     overlay.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
   });
 });
 
 overlay.addEventListener('click', () => {
   overlay.style.display = 'none';
+  document.body.style.overflow = '';
 });
 
 // barra de búsqueda y filtro de productos
