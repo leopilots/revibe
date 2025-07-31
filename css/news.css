@@ -1,0 +1,94 @@
+.banner-news {
+    width: 100%;
+    text-align: center;
+}
+
+.banner-img {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.banner-img img {
+    max-width: 15%;
+    height: auto;
+}
+
+.banner-news h1 {
+    font-size: 2.5rem;
+    color: #212121;
+    margin-top: 20px;
+}
+
+.banner-news p {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 0 10px;
+}
+
+@media (max-width: 900px) { .banner-img img { max-width: 30%; } }
+
+.drop {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+}
+
+.drop img {
+    width: 50%;
+}
+
+.drop div {
+    background-color: #000;
+    width: 50%;
+    padding: 0 5%;
+    /* Añade estas propiedades para centrar verticalmente */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra el contenido verticalmente */
+    align-items: flex-start; /* Alinea el contenido al inicio horizontalmente (izquierda) */
+}
+
+.drop h2 {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.drop p {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.drop p.post {
+    font-size: 0.8rem;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.drop a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c80619;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s all;
+    margin: 10px 0;
+}
+
+.drop a:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 1200px) { .drop { width: 80%; } }
+@media (max-width: 900px) { .drop { width: 90%; } }
+@media (max-width: 800px) { 
+    .drop { 
+        width: 90%; 
+        display: block;
+    } 
+    .drop img { width: 100%; }
+    .drop div { width: 100%; margin: 0; padding: 20px;}
+}
