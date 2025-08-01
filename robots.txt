@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /assets/css/     # No indexar CSS
+Disallow: /assets/js/      # No indexar JS
+
+Sitemap: https://leopilots.github.io/revibe/sitemap.xml
