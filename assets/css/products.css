@@ -71,6 +71,11 @@
     padding: 1rem;
 }
 
+.container-products h2 {
+    grid-column: 1 / -1; /* Ocupa toda la fila */
+    text-align: center;
+    margin-top: 2rem;
+}
 .product {
     border: 1px solid #ccc;
     border-radius: 10px;

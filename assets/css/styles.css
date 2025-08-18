@@ -30,6 +30,11 @@ main { flex: 1; }
 .show { display: block !important; }
 .hidden { display: none !important; }
 
+.sold {
+    background-color: #B0B0B0 !important;
+    cursor: crosshair !important;
+}
+
 /* header */
 .header-brand {
     text-align: center;
