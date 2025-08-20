@@ -3,35 +3,28 @@
 
    <url>
       <loc>https://leopilots.github.io/revibe/</loc>
-      <lastmod>2025-08-01</lastmod>
+      <lastmod>2025-08-019</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
    </url>
 
    <url>
-      <loc>https://leopilots.github.io/revibe/pages/man/</loc>
-      <lastmod>2025-08-01</lastmod>
-      <changefreq>weekly</changefreq>
-      <priority>0.9</priority>
-   </url>
-
-   <url>
-      <loc>https://leopilots.github.io/revibe/pages/woman/</loc>
-      <lastmod>2025-08-01</lastmod>
+      <loc>https://leopilots.github.io/revibe/pages/clothing/</loc>
+      <lastmod>2025-08-019</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
    </url>
 
    <url>
       <loc>https://leopilots.github.io/revibe/pages/accessories/</loc>
-      <lastmod>2025-08-01</lastmod>
+      <lastmod>2025-08-019</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
    </url>
 
    <url>
       <loc>https://leopilots.github.io/revibe/pages/news/</loc>
-      <lastmod>2025-08-01</lastmod>
+      <lastmod>2025-08-19</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
    </url>
